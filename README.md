@@ -68,17 +68,17 @@ You can supply molecules using any of the following three methods:
        CC(=O)OC1=CC=CC=C1C(=O)O
 
   B. Import a Text File (.txt):
-     Click the "📁 Import .txt" button at the bottom of Section 2.
+     Click the "Import .txt" button at the bottom of Section 2.
      Select any plain text file containing SMILES lines.
 
   C. Load Sample Molecules:
-     Click the "🧪 Load Sample" button to load benchmark cervical anticancer compounds
+     Click the "Load Sample" button to load benchmark cervical anticancer compounds
      (including Cisplatin, Paclitaxel, Topotecan, and 5-Fluorouracil).
 
  STEP 4: RUN PREDICTIONS
 -----------------------
-Click the teal "⚡ Predict Activity" button.
-- The button will display "⏳ Screening..." during computation.
+Click the teal "Predict Activity" button.
+- The button will display "Screening..." during computation.
 - Predictions run asynchronously on a background thread so the interface never freezes.
 - For each molecule:
     1. RDKit parses and canonicalizes the SMILES structure.
@@ -97,7 +97,7 @@ STEP 5: REVIEW & EXPORT RESULTS (SECTION 3)
          * "Invalid"  (highlighted in amber italic font if SMILES is unparseable)
 
 2. Export as CSV:
-   Click the "📥 Export CSV Report" button at the bottom right.
+   Click the "Export CSV Report" button at the bottom right.
    Choose a file name and save location to export a formatted CSV spreadsheet
    ready for Microsoft Excel, LibreOffice Calc, or further statistical analysis.
 
@@ -106,7 +106,7 @@ STEP 5: REVIEW & EXPORT RESULTS (SECTION 3)
 ================================================================================
 
 INPUT SPECIFICATION:
-  - Input Type: 1D SMILES (Simplified Molecular Input Line Entry System)
+  - Input Type: SMILES (Simplified Molecular Input Line Entry System)
   - Layout: One SMILES per line
   - Blank lines and whitespace are automatically ignored.
 
@@ -130,7 +130,7 @@ A2: If a chemical string contains syntax errors, unsupported stereochemical symb
     Check the chemical structure syntax in ChemDraw or PubChem.
 
 Q3: Can I run this without an Internet connection?
-A3: Yes! CCPred is 100% offline. All machine learning models and fingerprint algorithms
+A3: Yes, CCPred is 100% offline. All machine learning models and fingerprint algorithms
     run locally on your CPU. No data is sent over the network.
 
 =====================================
