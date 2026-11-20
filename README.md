@@ -1,4 +1,4 @@
-================================================================================
+
                                     CCPred
     Machine Learning-Based Prediction of Compounds Against Cervical Cancer
                                  User Manual
