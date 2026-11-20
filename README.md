@@ -14,7 +14,7 @@ major human cervical cancer cell lines:
   - KB   
   - SiHa 
 
-=============================================
+=====================================
 2. SYSTEM CAPABILITIES & COMPATIBILITY
 ================================================================================
 
@@ -37,7 +37,7 @@ A. STANDALONE APPLICATION (CCPred.exe):
       * Storage: ~500 MB free hard drive space
       * Screen Resolution: 1280x720 minimum (1920x1080 Full HD recommended)
 
-=============================================
+=====================================
 3. HOW TO USE CCPRED (STEP-BY-STEP GUIDE)
 ================================================================================
 
@@ -101,7 +101,7 @@ STEP 5: REVIEW & EXPORT RESULTS (SECTION 3)
    Choose a file name and save location to export a formatted CSV spreadsheet
    ready for Microsoft Excel, LibreOffice Calc, or further statistical analysis.
 
-=============================================
+=====================================
 4. INPUT & OUTPUT FORMAT DETAILS
 ================================================================================
 
@@ -115,7 +115,7 @@ OUTPUT CSV STRUCTURE:
   - Column 2: SMILES      (e.g., CC(=O)OC1=CC=CC=C1C(=O)O)
   - Column 3: PREDICTION  (Active / Inactive / Invalid SMILES)
 
-=============================================
+=====================================
 5. TROUBLESHOOTING & FREQUENTLY ASKED QUESTIONS
 ================================================================================
 
@@ -133,7 +133,7 @@ Q3: Can I run this without an Internet connection?
 A3: Yes! CCPred is 100% offline. All machine learning models and fingerprint algorithms
     run locally on your CPU. No data is sent over the network.
 
-=============================================
+=====================================
 6. DISCLAIMER
 ================================================================================
 CCPred is an in silico research support tool intended for computational drug
@@ -141,4 +141,3 @@ screening and prioritization. Predicted activities are computational estimates
 and should be validated experimentally using in vitro biological assays before
 clinical or therapeutic conclusions are drawn.
 
-================================================================================
